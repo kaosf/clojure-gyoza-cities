@@ -4,7 +4,15 @@ A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-FIXME
+```sh
+lein deps # for depencencies installation
+lein repl
+```
+
+```clojure
+(use 'gyoza.core) ;-> nil
+(gyoza-cities) ;-> (("Hamamatsu-shi" 4059.0) ("Utsunomiya-shi" 3624.0) ("Kyoto-shi" 2529.0) ("Shizuoka-shi" 2052.0) ("Otsu-shi" 1976.0))
+```
 
 ## References
 
